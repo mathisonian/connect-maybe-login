@@ -10,8 +10,10 @@ Install the module with: `npm install connect-maybe-login`
 ## Example Usage
 
 ```javascript
-     app.get('/some-page', maybeLoggedIn(), function(req, res) { ... });
-```
 
+var maybeLoggedIn = require('connect-maybe-login');
+
+app.get('/some-page', maybeLoggedIn(), function(req, res) { ... });
+```
 ## License
 Copyright (c) 2014 Matthew Conlen. Licensed under the MIT license.
