@@ -1,0 +1,34 @@
+{
+  "name": "connect-maybe-login",
+  "version": "0.0.1",
+  "main": "lib/connect-maybe-login.js",
+  "description": "Set correct passport settings for pages which accept logged in & logged out users",
+  "homepage": "http://github.com/mathisonian/connect-maybe-login",
+  "bugs": {
+    "url": "https://github.com/mathisonian/connect-maybe-login/issues"
+  },
+  "author": "Matthew Conlen <code@mathisonian.com> (http://mathsionian.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathisonian/connect-maybe-login"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "connect",
+    "passport",
+    "logged",
+    "in",
+    "logged",
+    "out",
+    "login",
+    "logout"
+  ],
+  "license": "MIT"
+}
